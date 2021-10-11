@@ -1,5 +1,6 @@
-function getGreeting(name){
-    return "Hi " + name;
-}
+module.exports = { 
 
-module.exports = getGreeting;
+    getGreeting: (name) => `Hi ${name}`,
+
+    sumNums: (num1, num2) => num1 + num2
+};
